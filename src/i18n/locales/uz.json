@@ -1,0 +1,120 @@
+{
+	"common": {
+		"welcome": "Xush kelibsiz",
+		"logout": "Chiqish",
+		"settings": "Sozlamalar",
+		"dashboard": "Boshqaruv paneli",
+		"save": "Saqlash",
+		"cancel": "Bekor qilish",
+		"delete": "O'chirish",
+		"edit": "Tahrirlash",
+		"add": "Qo'shish",
+		"search": "Qidirish",
+		"filter": "Filtrlash",
+		"sort": "Tartiblash",
+		"name": "Ism",
+		"age": "Yoshi",
+		"group": "Guruh",
+		"parentName": "Ota-Ona ismi",
+		"parentPhone": "Ota-Ona telefon",
+		"parentCode": "Ota-Ona kodi",
+		"login": "Login",
+		"password": "Parol",
+		"childLoginInfo": "Bola uchun kirish ma'lumotlari",
+		"addChild": "Bola qo'shish"
+	},
+	"auth": {
+		"login": "Kirish",
+		"enterCode": "Kodingizni kiriting",
+		"codePlaceholder": "Kirish kodingizni kiriting",
+		"invalidCode": "Noto'g'ri kod"
+	},
+	"roles": {
+		"admin": "Administrator",
+		"director": "Direktor",
+		"teacher": "O'qituvchi",
+		"parent": "Ota-Ona"
+	},
+	"modules": {
+		"children": "Bolalar",
+		"meals": "Ovqatlanish",
+		"vaccination": "Emlash",
+		"activities": "Mashg'ulotlar",
+		"storage": "Ombor",
+		"sleep": "Uxlayotgan vaqti",
+		"homework": "Uyga vazifalar",
+		"attendance": "Davomat",
+		"complaints": "Shikoyatlar & Takliflar",
+		"filial": "Filliallar",
+		"groups": "Guruhlar",
+		"myChild": "Bolam",
+		"qrCode": "QR Kod"
+	},
+	"meals": {
+		"title": "Ovqatlanish hisobi",
+		"breakfast": "Nonushta",
+		"lunch": "Tushlik",
+		"snack": "Tushlikdan keyin",
+		"addMeal": "Ovqat qo'shish",
+		"childName": "Bola ismi",
+		"menu": "Menyu",
+		"time": "Vaqt",
+		"mealType": "Ovqat turi"
+	},
+	"vaccination": {
+		"title": "Emlash yozuvlari",
+		"vaccineName": "Vaksina nomi",
+		"dueDate": "Muddat",
+		"status": "Holat",
+		"completed": "Yakunlangan",
+		"pending": "Kutilmoqda",
+		"addVaccine": "Vaksina qo'shish"
+	},
+	"activities": {
+		"title": "Mashg'ulotlar va darslar",
+		"schedule": "Jadval",
+		"homework": "Uyga vazifa",
+		"progress": "Taraqqiyot",
+		"addActivity": "Mashg'ulot qo'shish",
+		"titleLabel": "Sarlavha",
+		"description": "Tavsif",
+		"date": "Sana",
+		"time": "Vaqt",
+		"group": "Guruh"
+	},
+	"storage": {
+		"title": "Ovqat ombori",
+		"foodItem": "Ovqat mahsuloti",
+		"amount": "Miqdor",
+		"lowStock": "Past zaxira ogohlantirishi",
+		"addItem": "Mahsulot qo'shish",
+		"removeItem": "Mahsulot olib tashlash"
+	},
+	"sleep": {
+		"title": "Uyqu hisobi",
+		"sleepStart": "Uyqu boshlanishi",
+		"wakeUp": "Uyg'onish",
+		"duration": "Davomiylik"
+	},
+	"homework": {
+		"title": "Uyga vazifalar",
+		"assignHomework": "Uyga vazifa berish",
+		"status": "Holat",
+		"done": "Bajarildi",
+		"notDone": "Bajarilmadi"
+	},
+	"attendance": {
+		"title": "Davomat",
+		"present": "Mavjud",
+		"absent": "Yo'q",
+		"markAttendance": "Qabul qilishni belgilash"
+	},
+	"complaints": {
+		"title": "Shikoyatlar va Takliflar",
+		"sendComplaint": "Shikoyat yuborish",
+		"status": "Holat",
+		"new": "Yangi",
+		"inProgress": "Jarayonda",
+		"resolved": "Hal qilindi"
+	}
+}

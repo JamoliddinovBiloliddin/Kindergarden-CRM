@@ -1,0 +1,98 @@
+{
+	"common": {
+		"welcome": "Welcome",
+		"logout": "Logout",
+		"settings": "Settings",
+		"dashboard": "Dashboard",
+		"save": "Save",
+		"cancel": "Cancel",
+		"delete": "Delete",
+		"edit": "Edit",
+		"add": "Add",
+		"search": "Search",
+		"filter": "Filter",
+		"sort": "Sort"
+	},
+	"auth": {
+		"login": "Login",
+		"enterCode": "Enter your code",
+		"codePlaceholder": "Enter your access code",
+		"invalidCode": "Invalid code"
+	},
+	"roles": {
+		"admin": "Admin",
+		"director": "Director",
+		"teacher": "Teacher",
+		"parent": "Parent"
+	},
+	"modules": {
+		"meals": "Meals",
+		"vaccination": "Vaccination",
+		"activities": "Activities",
+		"storage": "Food Storage",
+		"sleep": "Sleep Time",
+		"homework": "Homework",
+		"attendance": "Attendance",
+		"complaints": "Complaints & Suggestions"
+	},
+	"meals": {
+		"title": "Meals Tracking",
+		"breakfast": "Breakfast",
+		"lunch": "Lunch",
+		"snack": "Snack",
+		"addMeal": "Add Meal",
+		"childName": "Child Name",
+		"menu": "Menu",
+		"time": "Time"
+	},
+	"vaccination": {
+		"title": "Vaccination Records",
+		"vaccineName": "Vaccine Name",
+		"dueDate": "Due Date",
+		"status": "Status",
+		"completed": "Completed",
+		"pending": "Pending"
+	},
+	"activities": {
+		"title": "Activities & Lessons",
+		"schedule": "Schedule",
+		"homework": "Homework",
+		"progress": "Progress"
+	},
+	"storage": {
+		"title": "Food Storage",
+		"foodItem": "Food Item",
+		"amount": "Amount",
+		"lowStock": "Low Stock Warning",
+		"addItem": "Add Item",
+		"removeItem": "Remove Item"
+	},
+	"sleep": {
+		"title": "Sleep Tracking",
+		"sleepStart": "Sleep Start",
+		"wakeUp": "Wake Up",
+		"duration": "Duration"
+	},
+	"homework": {
+		"title": "Homework",
+		"assignHomework": "Assign Homework",
+		"status": "Status",
+		"done": "Done",
+		"notDone": "Not Done"
+	},
+	"attendance": {
+		"title": "Attendance",
+		"present": "Present",
+		"absent": "Absent",
+		"markAttendance": "Mark Attendance"
+	},
+	"complaints": {
+		"title": "Complaints & Suggestions",
+		"sendComplaint": "Send Complaint",
+		"status": "Status",
+		"new": "New",
+		"inProgress": "In Progress",
+		"resolved": "Resolved"
+	}
+}
+
