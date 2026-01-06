@@ -1,0 +1,205 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 30% 97%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: 221 83% 53%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 250 70% 60%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 220 20% 94%;
+    --muted-foreground: 220 10% 45%;
+
+    --accent: 280 70% 65%;
+    --accent-foreground: 0 0% 100%;
+
+    --success: 142 76% 45%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 55%;
+    --warning-foreground: 0 0% 100%;
+
+    --info: 199 89% 48%;
+    --info-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 20% 90%;
+    --input: 220 20% 90%;
+    --ring: 221 83% 53%;
+
+    --radius: 1rem;
+
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 222 47% 11%;
+    --sidebar-primary: 221 83% 53%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 250 70% 60%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 220 20% 90%;
+    --sidebar-ring: 221 83% 53%;
+
+    --chart-1: 221 83% 53%;
+    --chart-2: 250 70% 60%;
+    --chart-3: 280 70% 65%;
+    --chart-4: 142 76% 45%;
+    --chart-5: 38 92% 55%;
+  }
+
+  .dark {
+    --background: 222 47% 8%;
+    --foreground: 210 40% 96%;
+
+    --card: 222 47% 12%;
+    --card-foreground: 210 40% 96%;
+
+    --popover: 222 47% 12%;
+    --popover-foreground: 210 40% 96%;
+
+    --primary: 221 83% 60%;
+    --primary-foreground: 222 47% 8%;
+
+    --secondary: 250 70% 65%;
+    --secondary-foreground: 222 47% 8%;
+
+    --muted: 222 30% 18%;
+    --muted-foreground: 220 15% 60%;
+
+    --accent: 280 70% 70%;
+    --accent-foreground: 222 47% 8%;
+
+    --success: 142 76% 50%;
+    --success-foreground: 222 47% 8%;
+
+    --warning: 38 92% 60%;
+    --warning-foreground: 222 47% 8%;
+
+    --info: 199 89% 55%;
+    --info-foreground: 222 47% 8%;
+
+    --destructive: 0 84% 65%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 222 30% 22%;
+    --input: 222 30% 22%;
+    --ring: 221 83% 60%;
+
+    --sidebar-background: 222 47% 10%;
+    --sidebar-foreground: 210 40% 96%;
+    --sidebar-border: 222 30% 22%;
+  }
+
+  /* Color Themes */
+  .theme-ocean {
+    --primary: 199 89% 48%;
+    --secondary: 175 80% 45%;
+    --accent: 221 83% 53%;
+  }
+
+  .theme-ocean.dark {
+    --primary: 199 89% 55%;
+    --secondary: 175 80% 50%;
+    --accent: 221 83% 60%;
+  }
+
+  .theme-sunset {
+    --primary: 25 95% 55%;
+    --secondary: 350 80% 60%;
+    --accent: 38 92% 55%;
+  }
+
+  .theme-sunset.dark {
+    --primary: 25 95% 60%;
+    --secondary: 350 80% 65%;
+    --accent: 38 92% 60%;
+  }
+
+  .theme-forest {
+    --primary: 142 76% 40%;
+    --secondary: 160 84% 40%;
+    --accent: 90 60% 45%;
+  }
+
+  .theme-forest.dark {
+    --primary: 142 76% 50%;
+    --secondary: 160 84% 50%;
+    --accent: 90 60% 55%;
+  }
+
+  .theme-berry {
+    --primary: 280 70% 55%;
+    --secondary: 330 80% 60%;
+    --accent: 250 70% 60%;
+  }
+
+  .theme-berry.dark {
+    --primary: 280 70% 65%;
+    --secondary: 330 80% 70%;
+    --accent: 250 70% 70%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-card/80 backdrop-blur-xl border border-border/50 rounded-2xl shadow-lg;
+  }
+
+  .glass-card-hover {
+    @apply glass-card transition-all duration-300 hover:shadow-xl hover:scale-[1.02];
+  }
+
+  .gradient-bg {
+    background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--secondary)));
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--secondary)));
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-slate-300 rounded-full hover:bg-slate-400;
+  }
+
+  .dark .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-slate-700 hover:bg-slate-600;
+  }
+}
