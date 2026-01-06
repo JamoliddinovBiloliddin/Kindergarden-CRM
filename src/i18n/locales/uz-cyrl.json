@@ -1,0 +1,120 @@
+{
+	"common": {
+		"welcome": "Хуш келибсиз",
+		"logout": "Чиқиш",
+		"settings": "Созламалар",
+		"dashboard": "Бошқарув панели",
+		"save": "Сақлаш",
+		"cancel": "Бекор қилиш",
+		"delete": "Ўчириш",
+		"edit": "Таҳрирлаш",
+		"add": "Қўшиш",
+		"search": "Қидириш",
+		"filter": "Филтрлаш",
+		"sort": "Тартиблаш",
+		"name": "Исм",
+		"age": "Ёши",
+		"group": "Гуруҳ",
+		"parentName": "Ота-Она исми",
+		"parentPhone": "Ота-Она телефон",
+		"parentCode": "Ота-Она коди",
+		"login": "Логин",
+		"password": "Парол",
+		"childLoginInfo": "Бола учун кириш маълумотлари",
+		"addChild": "Бола қўшиш"
+	},
+	"auth": {
+		"login": "Кириш",
+		"enterCode": "Кодингизни киритинг",
+		"codePlaceholder": "Кириш кодингизни киритинг",
+		"invalidCode": "Нотўғри код"
+	},
+	"roles": {
+		"admin": "Администратор",
+		"director": "Директор",
+		"teacher": "Ўқитувчи",
+		"parent": "Ота-Она"
+	},
+	"modules": {
+		"children": "Болалар",
+		"meals": "Овқатланиш",
+		"vaccination": "Эмлаш",
+		"activities": "Машғулотлар",
+		"storage": "Омбор",
+		"sleep": "Ухлаётган вақти",
+		"homework": "Уйга вазифалар",
+		"attendance": "Қабул қилиш",
+		"complaints": "Шикоятлар & Таклифлар",
+		"groups": "Гуруҳлар",
+		"myChild": "Болам",
+		"qrCode": "QR Код"
+	},
+	"meals": {
+		"title": "Овқатланиш ҳисоби",
+		"breakfast": "Нонушта",
+		"lunch": "Тушлик",
+		"snack": "Тушликдан кейин",
+		"addMeal": "Овқат қўшиш",
+		"childName": "Бола исми",
+		"menu": "Меню",
+		"time": "Вақт",
+		"mealType": "Овқат тури"
+	},
+	"vaccination": {
+		"title": "Эмлаш ёзувлари",
+		"vaccineName": "Ваксина номи",
+		"dueDate": "Муддат",
+		"status": "Ҳолат",
+		"completed": "Якунланган",
+		"pending": "Кутилмоқда",
+		"addVaccine": "Ваксина қўшиш"
+	},
+	"activities": {
+		"title": "Машғулотлар ва дарслар",
+		"schedule": "Жадвал",
+		"homework": "Уйга вазифа",
+		"progress": "Тараққиёт",
+		"addActivity": "Машғулот қўшиш",
+		"titleLabel": "Сарлавҳа",
+		"description": "Тавсиф",
+		"date": "Сана",
+		"time": "Вақт",
+		"group": "Гуруҳ"
+	},
+	"storage": {
+		"title": "Овқат омбори",
+		"foodItem": "Овқат маҳсулоти",
+		"amount": "Миқдор",
+		"lowStock": "Паст захира огоҳлантириши",
+		"addItem": "Маҳсулот қўшиш",
+		"removeItem": "Маҳсулот олиб ташлаш"
+	},
+	"sleep": {
+		"title": "Уйқу ҳисоби",
+		"sleepStart": "Уйқу бошланиши",
+		"wakeUp": "Уйғониш",
+		"duration": "Давомлилик"
+	},
+	"homework": {
+		"title": "Уйга вазифалар",
+		"assignHomework": "Уйга вазифа бериш",
+		"status": "Ҳолат",
+		"done": "Бажарилди",
+		"notDone": "Бажарилмади"
+	},
+	"attendance": {
+		"title": "Қабул қилиш",
+		"present": "Мавжуд",
+		"absent": "Йўқ",
+		"markAttendance": "Қабул қилишни белгилаш"
+	},
+	"complaints": {
+		"title": "Шикоятлар ва Таклифлар",
+		"sendComplaint": "Шикоят юбориш",
+		"status": "Ҳолат",
+		"new": "Янги",
+		"inProgress": "Жараёнда",
+		"resolved": "Ҳал қилинди"
+	}
+}
+

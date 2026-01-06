@@ -1,0 +1,98 @@
+{
+	"common": {
+		"welcome": "Добро пожаловать",
+		"logout": "Выйти",
+		"settings": "Настройки",
+		"dashboard": "Панель управления",
+		"save": "Сохранить",
+		"cancel": "Отмена",
+		"delete": "Удалить",
+		"edit": "Редактировать",
+		"add": "Добавить",
+		"search": "Поиск",
+		"filter": "Фильтр",
+		"sort": "Сортировать"
+	},
+	"auth": {
+		"login": "Войти",
+		"enterCode": "Введите ваш код",
+		"codePlaceholder": "Введите код доступа",
+		"invalidCode": "Неверный код"
+	},
+	"roles": {
+		"admin": "Администратор",
+		"director": "Директор",
+		"teacher": "Учитель",
+		"parent": "Родитель"
+	},
+	"modules": {
+		"meals": "Питание",
+		"vaccination": "Вакцинация",
+		"activities": "Занятия",
+		"storage": "Склад продуктов",
+		"sleep": "Время сна",
+		"homework": "Домашнее задание",
+		"attendance": "Посещаемость",
+		"complaints": "Жалобы и предложения"
+	},
+	"meals": {
+		"title": "Учет питания",
+		"breakfast": "Завтрак",
+		"lunch": "Обед",
+		"snack": "Полдник",
+		"addMeal": "Добавить прием пищи",
+		"childName": "Имя ребенка",
+		"menu": "Меню",
+		"time": "Время"
+	},
+	"vaccination": {
+		"title": "Записи о вакцинации",
+		"vaccineName": "Название вакцины",
+		"dueDate": "Срок",
+		"status": "Статус",
+		"completed": "Завершено",
+		"pending": "Ожидается"
+	},
+	"activities": {
+		"title": "Занятия и уроки",
+		"schedule": "Расписание",
+		"homework": "Домашнее задание",
+		"progress": "Прогресс"
+	},
+	"storage": {
+		"title": "Склад продуктов",
+		"foodItem": "Продукт",
+		"amount": "Количество",
+		"lowStock": "Предупреждение о низком запасе",
+		"addItem": "Добавить продукт",
+		"removeItem": "Удалить продукт"
+	},
+	"sleep": {
+		"title": "Учет сна",
+		"sleepStart": "Начало сна",
+		"wakeUp": "Пробуждение",
+		"duration": "Продолжительность"
+	},
+	"homework": {
+		"title": "Домашнее задание",
+		"assignHomework": "Задать домашнее задание",
+		"status": "Статус",
+		"done": "Выполнено",
+		"notDone": "Не выполнено"
+	},
+	"attendance": {
+		"title": "Посещаемость",
+		"present": "Присутствует",
+		"absent": "Отсутствует",
+		"markAttendance": "Отметить посещаемость"
+	},
+	"complaints": {
+		"title": "Жалобы и предложения",
+		"sendComplaint": "Отправить жалобу",
+		"status": "Статус",
+		"new": "Новое",
+		"inProgress": "В процессе",
+		"resolved": "Решено"
+	}
+}
+
